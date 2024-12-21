@@ -1,0 +1,183 @@
+.col-lg-4_offset-lg-1 p-0 overflow-hidden shadow-lg {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.products {
+    display: flex;
+    grid-column: 3;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    flex: 0 0 30%;
+    background-color: lightgray;
+}
+
+.card {
+    flex: 1 0 30%;
+    /* Each item takes up 30% of the container's width, creating 3 columns */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect the width */
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    /* Set the carousel width to 50% of the parent container (adjust as needed) */
+    max-width: 500px;
+    /* Set a max width to prevent it from getting too large */
+    margin: 0 auto;
+    /* Center the carousel horizontally */
+}
+
+.carousel-inner {
+    height: 300px;
+    /* Adjust the height of the carousel */
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Make the image width 100% of the container */
+    height: 100%;
+    /* Set the height of the image to fill the container */
+    object-fit: cover;
+    /* Ensures the images cover the container area */
+}
+
+.fotter {
+    background-color: aliceblue;
+}
+
+.pb-2_border-bottom {
+    background-color: lightgray;
+}
+
+.bestprodact {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.wachhhh {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    /* Full viewport height */
+    width: 100%;
+    margin: 0;
+    /* Remove any default margin */
+}
+
+video {
+    width: 844px;
+    /* Fixed width of 1080px */
+    height: auto;
+    /* Automatic height based on the aspect ratio */
+}
+
+
+/* Hide video controls (e.g., play button) */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+
+/* Modal Styling */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+    z-index: 999;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    animation: scaleUp 0.3s ease;
+}
+
+.modal-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn.primary {
+    background: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.view_more {
+    width: 70px;
+    height: 60px;
+}
+
+.pb-2_border-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
