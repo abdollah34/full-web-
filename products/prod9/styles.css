@@ -1,0 +1,334 @@
+    .products-details {
+        padding: 2rem;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+    
+    .product-card {
+        display: flex;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+    }
+    
+    .image-container {
+        flex: 1;
+    }
+    
+    .details-container {
+        flex: 1;
+    }
+    
+    .product-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    
+    .price-tag {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .current-price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #2c3e50;
+    }
+    
+    .discount-badge {
+        background: linear-gradient(45deg, #ff6b6b, #ee5253);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        font-weight: 600;
+    }
+    
+    .size-option {
+        padding: 0.5rem 1rem;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .size-option:hover {
+        background: #2c3e50;
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    .color-option {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .color-option:hover {
+        transform: scale(1.2);
+    }
+    
+    .red {
+        background: #ff6b6b;
+    }
+    
+    .green {
+        background: #51cf66;
+    }
+    
+    .yellow {
+        background: #ffd43b;
+    }
+    
+    .blue {
+        background: #339af0;
+    }
+    
+    .quantity-input {
+        padding: 0.5rem;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        width: 100px;
+    }
+    
+    .add-to-cart-btn {
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        border-radius: 12px;
+        background: linear-gradient(45deg, #1a2a6c, #b21f1f);
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .add-to-cart-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media (max-width: 768px) {
+        .product-card {
+            flex-direction: column;
+        }
+    }
+    
+    .gradient-text {
+        background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .glass-effect {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        transition: all 0.4s ease;
+    }
+    
+    .glass-effect:hover {
+        transform: translateY(-10px) rotate(2deg);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+    
+    .image-wrapper {
+        overflow: hidden;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+    
+    .glass-effect:hover .card-img-top {
+        transform: scale(1.1);
+    }
+    
+    .price-tag {
+        color: #FF6B6B;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+    }
+    
+    .btn-neon {
+        background: linear-gradient(45deg, #4ECDC4, #45B7AF);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .btn-neon:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(78, 205, 196, 0.5);
+        color: white;
+    }
+    
+    .btn-neon::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transition: all 0.5s ease;
+    }
+    
+    .btn-neon:hover::before {
+        left: 100%;
+    }
+    
+    .color-option {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: border-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .color-option.red {
+        background-color: red;
+    }
+    
+    .color-option.green {
+        background-color: green;
+    }
+    
+    .color-option.yellow {
+        background-color: yellow;
+    }
+    
+    .color-option.blue {
+        background-color: blue;
+    }
+    
+    .color-option.selected {
+        border-color: #000;
+        transform: scale(1.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .size-option.selected {
+        background-color: #ff69b4;
+        /* Hot pink background */
+        color: white;
+        border-radius: 10px;
+        /* More rounded corners */
+        padding: 8px 15px;
+        /* Increased padding */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Add shadow for depth */
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        /* Smooth transition */
+    }
+    
+    .size-option.selected:hover {
+        background-color: #ff1493;
+        /* Darker pink on hover */
+        transform: scale(1.1);
+        /* Slightly enlarge on hover */
+    }
+    
+    cart-btn {
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .cart-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        color: white;
+    }
+    
+    .cart-btn svg {
+        animation: bounce 1s infinite;
+    }
+    
+    @keyframes bounce {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-3px);
+        }
+    }
+    
+    .cart-text {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    
+    .cart-btn {
+        background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .cart-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        color: white;
+    }
+    
+    .cart-btn svg {
+        animation: bounce 1s infinite;
+    }
+    
+    @keyframes bounce {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-3px);
+        }
+    }
+    
+    .cart-text {
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
