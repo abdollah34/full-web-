@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Woman Store</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <!--header-->
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="/images/logo.png" height="90">
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="/our prodact/index.html" class="nav-link px-2">Our Procuct</a></li>
+                <li><a href="/Contact us/index.html" class="nav-link px-2">Contact Us</a></li>
+                <li><a href="/about us/index.html" class="nav-link px-2">About Us</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-primary" onclick="location.href='/Carte/index.html'"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash" viewBox="0 0 16 16">
+                    <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                  </svg>Cart</button>
+            </div>
+        </header>
+    </div>
+
+    <!--mid-->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" style="background: linear-gradient(135deg, #fff8f8 0%, #ffe9e9 100%);">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h2 class="display-4 fw-bold lh-1 text-body-emphasis" style="font-family: 'Playfair Display', serif; color: #2c3e50;">
+                    Elegant Woman Store
+                </h2>
+                <p class="lead" style="color: #34495e; font-size: 1.25rem; line-height: 1.8;">
+                    Bienvenue dans notre boutique, où élégance et style se rencontrent. Découvrez des pièces uniques conçues pour sublimer votre quotidien
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" style="background: #e83e8c; border: none; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#d63384'" onmouseout="this.style.backgroundColor='#e83e8c'" onclick="location.href='/our prodact/index.html'">
+                        Our products
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4" style="border-color: #e83e8c; color: #e83e8c; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#e83e8c'; this.style.color='white'" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#e83e8c'"
+                        onclick="location.href='/Carte/index.html'">
+                        Cart
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="border-radius: 15px !important; margin-bottom: 50px;">
+                <video autoplay loop muted play-inline style="width: 100%; height: 450px; object-fit: cover; border-radius: 15px;" class="video">
+                    <source src="/images/No copyright shopping clothes .mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!--product-->
+    <div class="bestprodact" style="margin: 2rem 0; padding: 1rem;">
+        <h2 class="pb-2 border-bottom" style="color: #e83e8c; font-family: 'Playfair Display', serif; text-align: center; font-size: 2.5rem; margin-bottom: 2rem; text-transform: uppercase; letter-spacing: 2px;">
+            FEATURED PRODUCT
+        </h2>
+    </div>
+
+    <div class="products" style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; padding: 2rem;">
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 1</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">120 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod1/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 2</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">150 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod2/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 3</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">200 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod3/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 4</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">120 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod4/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 5</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">150 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod5/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+            <img src="./images/woman-clothing-happy.avif" class="card-img-top" alt="..." style="height: 250px; object-fit: cover;">
+            <div class="card-body" style="text-align: center; padding: 1.5rem;">
+                <h5 class="card-title" style="color: #e83e8c; font-weight: bold; margin-bottom: 1rem;">Product Name 6</h5>
+                <p class="card-text" style="font-size: 1.2rem; color: #2c3e50; font-weight: 600;">150 MAD</p>
+                <button class="btn btn-primary add-to-cart" onclick="location.href='/products/prod6/index.html'" style="background-color: #e83e8c; border: none; width: 100%; padding: 0.8rem; border-radius: 25px; transition: all 0.3s ease;">QuickLook</button>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            background-color: #fbf2f5;
+            /* Light pink background */
+        }
+        /* Media Queries for better responsiveness */
+        
+        @media (max-width: 576px) {
+            .card {
+                flex: 0 1 100%;
+                min-width: 200px;
+            }
+            .products {
+                padding: 0.5rem;
+                gap: 0.5rem;
+            }
+        }
+        /* Loading animation */
+        
+        @keyframes cardLoading {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .card {
+            animation: cardLoading 0.5s ease-out forwards;
+            background-color: white;
+            /* Ensure cards have white background */
+        }
+        /* Smooth transitions */
+        
+        .card img {
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(232, 62, 140, 0.2);
+        }
+        
+        .btn-primary:hover {
+            background-color: #d63384 !important;
+            transform: scale(1.05);
+        }
+        
+        .products {
+            margin-bottom: 4rem;
+            animation: fadeIn 1s ease-in;
+        }
+        
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            flex: 0 1 calc(33.333% - 2rem);
+            min-width: 280px;
+            animation: slideUp 0.8s ease-out;
+            margin-bottom: 2rem;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .card-title {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .card-title::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #e83e8c;
+            transition: width 0.3s ease;
+        }
+        
+        .card:hover .card-title::after {
+            width: 100%;
+        }
+        
+        @media (max-width: 768px) {
+            .card {
+                flex: 0 1 calc(50% - 2rem);
+                min-width: 250px;
+                margin-bottom: 2rem;
+            }
+            .products {
+                padding: 1rem;
+                gap: 1rem;
+            }
+        }
+    </style>
+
+    <!-- Add to Cart Modal -->
+    <!-- Add to Cart Alert Modal -->
+    <!--tiyira a3ringh-->
+    <div class="fotter">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2024 <a href="/index.html" class="mb-3 mb-md-0 text-body-secondary">Elegant Woman Store</a>, Inc</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                   <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                 </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                 </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/script/index.js"></script>
+</body>
+
+</html>
